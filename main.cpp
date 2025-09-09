@@ -17,6 +17,7 @@ int main() {
     cin >> x;
     cout << "enter another number : ";
     cin >> y;
+    // extra
     if(x == 6 && y == 7 || sum == 67 || x == 67 || y == 67){
         cout << "Dont do that again" << endl;
     }else{
