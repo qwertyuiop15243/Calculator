@@ -15,12 +15,16 @@ int main() {
     cin >> x;
     cout << "enter another number : ";
     cin >> y;
-    sum = x + y;
+    if(x == 6 && y == 7 || sum == 67 || x == 67 || y == 67){
+        cout << "Dont do that again" << endl;
+    }else{
+sum = x + y;
     sub = x - y;
     mult = x * y;
     div = x / y;
     inc = ++x;
     dec = --y;
+     
     cout << "The sum is " << sum << endl;
     cout << "The difference is " << sub << endl;
     cout << "The product is " << mult << endl;
@@ -29,18 +33,9 @@ int main() {
     cout << "x incremented is " << inc << endl;
     cout << "y decremented is " << dec << endl;
    
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-    if(x == 6 && y == 7 || sum == 67){
-        cout << "Dont do that again" << endl;
     }
+    
+
+   
+   
 }
