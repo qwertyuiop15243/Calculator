@@ -1,7 +1,9 @@
 #include <iostream>
+// William Holley 9/9/2025
 using namespace std;
 
 int main() {
+    //All of the variables used
     int x;
     int y;
     int sum;
@@ -18,13 +20,14 @@ int main() {
     if(x == 6 && y == 7 || sum == 67 || x == 67 || y == 67){
         cout << "Dont do that again" << endl;
     }else{
+        // The math
 sum = x + y;
     sub = x - y;
     mult = x * y;
     div = x / y;
     inc = ++x;
     dec = --y;
-     
+     // Printing to console
     cout << "The sum is " << sum << endl;
     cout << "The difference is " << sub << endl;
     cout << "The product is " << mult << endl;
