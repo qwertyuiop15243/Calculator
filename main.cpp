@@ -28,6 +28,7 @@ sum = x + y;
     div = x / y;
     inc = ++x;
     dec = --y;
+    mod = x%y;
      // Printing to console
     cout << "The sum is " << sum << endl;
     cout << "The difference is " << sub << endl;
